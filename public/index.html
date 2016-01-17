@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Band to the Pole</title>
+
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-71981818-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+  <body>
+    
+
+    <div id="map-canvas" class="jumbotron"></div>
+
+      
+      <div id="overlay">
+        <div class="container"><h1>The Band to the Pole</h1>
+        <h3>Follow James on his quest to the North Pole with Microsoft Band</h3>
+        </div>
+      </div>
+      
+      <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="text-align: center;"><!-- <img src="img/first_explorer.jpg" class="img-circle" alt="First Explorer" height="118"><img src="img/second_explorer.jpg" class="img-circle" alt="Second Explorer" height="118" style="margin:15px;"> -->
+                <img src="img/supported_charities.jpg" alt="Supported Charities" height="236" id="image-margins"></div>
+                <div class="col-md-8" style="text-align: left;">
+                    <h2>The Challenge</h2>
+                    <p>James and Anita have two goals in mind: succeeding in their quest to the North Pole and collect &pound;30,000 for the charities they support. They will bring the new Microsoft Band 2 with them so you can follow their performance during this time. Help them to help others.</p>
+                    <a href="#" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">Donate</a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">The Charities</h4>
+                          </div>
+                          <div class="modal-body">
+                            Help James and Anita in their goal to collect &pound;30,000 for these three charities.
+                            <p>
+                                <h5>Diana Award </h5>
+                                <div class="row">
+                                <div class="col-md-3">
+                                    <img src="img/diana_award.png" height="100px" width="100px" align="left" style="margin-right: 10px;" alt="Diana Award Logo">
+                                </div>
+                                <div class="col-md-9">
+                                Founded in 1999, the organisation believes young people have the power to change the world for the better. Awards are presented to individuals who make a positive difference in their community and currently there are around 42,000 award holders around the UK.<br>
+                                <a href="https://www.justgiving.com/NorthPoleLastTwoDegreesDianaAward/4w350m3/donate/?reference=MICROSOFT" class="btn btn-info" target="_blank" style="margin-top: 10px;">Donate</a>
+                                </div>
+                                </div>
+                            </p>
+
+                            <p style="margin-top: 30px;">
+                                <h5>Royal Signals Benevolent Fund</h5>
+                                <div class="row">
+                                <div class="col-md-3">
+                                    <img src="img/royal_signals.jpg" height="100px" width="100px" align="left" style="margin-right: 10px;" alt="Royal Signals Logo">
+                                </div>
+                                <div class="col-md-9">
+                                The Royal Signals is the Corps I joined when I enlisted in the Army. The Benevolent Fund’s mission is to provide aid to the families of both former and serving Signallers. Founded in the 1980’s, the charity has helped make life a little easier for thousands of Signallers and there families at the lowest points in their lives.<br>
+                                <a href="https://www.justgiving.com/NorthPoleLastTwoDegreesRSBF/4w350m3/donate/?reference=MICROSOFT" class="btn btn-info" target="_blank" style="margin-top: 10px;">Donate</a>
+                                </div>
+                                </div>
+                            </p>
+
+                            <p style="margin-top: 30px;">
+                                <h5>Walking with the Wounded</h5>
+                                <div class="row">
+                                <div class="col-md-3">
+                                    <img src="img/walking_wounded.jpg" height="100px" width="100px" align="left" style="margin-right: 10px;" alt="Walking with the Wounded Logo">
+                                </div>
+                                <div class="col-md-9">
+                                Founded in 2013, the charity is the brainchild of a couple of ex-Forces personnel. The principle aim of the Ed and his team is to raise money for wounded servicemen, and women, in order to fund rehabilitation and vocational programmes. WwtW also works directly with Recovery Career Service, Back to Work and LifeWork in as part of the overall service they offer.<br>
+                                <a href="https://www.justgiving.com/NorthPoleLastTwoDegreesWwtW/4w350m3/donate/?reference=MICROSOFT" class="btn btn-info" target="_blank" style="margin-top: 10px;">Donate</a>
+                                </div>
+                                </div>
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div> 
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8"><h1 style="margin-bottom: 0px;">The Dashboard</h1><br><h4 style="margin-top: 0px;margin-bottom: 20px">Powered by Microsoft Health. Learn <a href="https://www.microsoft.com/microsoft-health/en-gb" target="_blank">more</a>.</h4></div>
+        <div class="col-md-4">
+            <div class="btn-group" style="vertical-align: middle;">
+                <a href="#" class="btn btn-primary dropdown-toggle btn-lg" data-toggle="dropdown" aria-expanded="false">
+                Select the Explorer
+                <span class="caret"></span>
+                </a>
+                  <ul class="dropdown-menu">
+                    <li id="james" style="cursor: pointer;">James</li>
+                    <li id="anita" style="cursor: pointer;">Anita</li>
+                    <li id="together" style="cursor: pointer;">Together</li>
+                  </ul>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6" style="margin-top: 10px;"><div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Daily Distance</h3>
+            </div>
+        </div>
+        <div><canvas id="distanceChart"></canvas></div></div>
+        <div class="col-md-6" style="margin-top: 10px;"><div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Calories</h3>
+            </div>
+        </div>
+        <div><canvas id="caloriesChart"></canvas></div><div id="legend" class="chart-legend">haha</div></div>
+        
+      </div> 
+
+      <div class="row">
+        <div class="col-md-6" style="margin-top: 10px;position: relative"><div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Heart Rate</h3>
+            </div>
+
+        </div>
+        <div class="row" style="max-height: 320px;">
+            <div class="col-md-4 text-center" style="max-height: 280px;">
+              <div id="seventyfive" style="height: 100px;padding: 0px"><img id="seventyfive" src="img/cortana.png"></div>
+            </div>
+            <div class="col-md-8 text-center" style="vertical-align: middle;">
+            
+                <h3 id="rate-text">The average Heart Rate of James yesterday was:</h3>
+                <div class="btn btn-success "><h2 id="heartValue">100bpm</h2></div><br><h5>All Good!</h5>
+            </div>
+            
+        </div>
+        </div>
+        <div class="col-md-6" style="margin:0px;">
+        <div class="row" style="">
+        <div class="col-md-6 social" style="margin-top: 10px;" id="hide"><div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Follow us on Twitter!</h3>
+            </div>
+        </div>
+        
+		<a class="twitter-timeline" href="https://twitter.com/TreksForCharity" data-widget-id="678324998986186752">Tweets by @TreksForCharity</a>
+		<script>
+			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+		</script>
+
+      
+        </div>
+
+        <div class="social col-md-6" style="margin-top: 10px;margin-bottom: 20px;"><div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">#BandToThePole</h3>
+            </div>
+        </div>
+      
+            <a class="twitter-timeline" href="https://twitter.com/hashtag/microsoft" data-widget-id="678313271158534144" id="twitter">#microsoft Tweets</a>
+			<script>
+				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+			</script>
+      </div>
+      </div>
+      </div>
+
+        
+      </div> 
+
+      <!-- <h1 style="margin-bottom: 0px;">Days Left</h1><br><h4 style="margin-top: 0px;margin-bottom: 20px" id="days-left">15 Days To Go!</h4>
+      <div class="progress" style="height: 33px;">
+      <div class="progress-bar" style="width: 90%;"></div>
+      </div>    -->     
+    </div> 
+    <div class="row" id="longrow" style="margin:0px;">
+
+        <div class="col-md-4" style="background-color: #7643a8;padding-top: 21px;padding-bottom:21px;">
+            <div id="small-container">
+                <h1 style="margin-bottom: 0px;color:#ffffff;margin-top: 0px;">Days Left</h1>
+                <br>
+                <h4 style="margin-top: 0px;margin-bottom: 20px;color:#ffffff" id="days-left">15 Days To Go!</h4>
+                <div class="progress" style="height: 33px;">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+                <h3 id="underbar" style="color:white;">dasd</h3>
+            </div>
+        </div>
+        <div class="col-md-8" style="background-color:#2D1940;height:100%;padding-top: 21px;padding-bottom:21px;">
+
+            <div id="small-container">
+            <h1 style="color:#ffffff;margin-top: 0px;">Meet The Explorers</h1>
+            <div class="row" id="longrow" style="margin:0px;">
+
+                
+                <div class="col-md-6" id="explorers">
+
+                    <img src="img/first_explorer.jpg" class="img-circle" alt="First Explorer" height="136" id="image-margins">
+
+                    <h5 style="color:#ffffff">Lorem ipsum dolor sit amet, pellentesque suscipit placerat nulla turpis pellentesque leo, massa ligula vulputate, lobortis in ut malesuada congue nisl, adipiscing sem praesent felis.</h5>
+              
+                </div>
+                <div class="col-md-6" id="explorers">
+                
+                    <img src="img/second_explorer.jpg" class="img-circle" alt="First Explorer" height="136" id="image-margins">
+
+                    <h5 style="color:#ffffff">Lorem ipsum dolor sit amet, pellentesque suscipit placerat nulla turpis pellentesque leo, massa ligula vulputate, lobortis in ut malesuada congue nisl, adipiscing sem praesent felis.</h5>
+
+                
+                </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+        <footer class="footer" style="margin:15px;">
+          <div class="container">
+            <p class="text-muted"><a href="http://www.ucl.ac.uk/advances" target="_blank" style="color:#999999;">Credits</a></p>
+          </div>
+        </footer>
+
+
+    <script src="js/map.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=initMap"
+            async defer></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/chartBuilder.js"></script>
+
+<script type="text/javascript">
+        // Building the time chart for remaining days.
+        var startDate = "11/25/2015";
+        var endDate = "1/25/2016";
+        var today = new Date();
+        var diff = Math.floor((Date.parse(endDate) - today) / 86400000);
+        var perc = (Math.floor((today - Date.parse(startDate)) / 86400000)) / Math.floor((Date.parse(endDate) - Date.parse(startDate)) / 86400000);
+        $("#days-left").html(diff + " Days to go!");
+        $(".progress-bar").css("width", perc * 100 + "%");
+        $("#underbar").text("The trip started on the " + startDate + " and is expected to finish on the " + endDate + ". It is " + Math.floor(perc * 100) + "% completed!");
+    </script>
+
+  </body>
+</html>

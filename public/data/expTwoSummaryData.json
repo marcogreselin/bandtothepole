@@ -1,0 +1,145 @@
+[{
+	"userId": "50b65288-5946-4ea1-a1c1-3cc12338ef63",
+	"startTime": "2015-12-30T00:00:00.000+00:00",
+	"endTime": "2015-12-31T00:00:00.000+00:00",
+	"parentDay": "2015-12-30T00:00:00.000+00:00",
+	"isTransitDay": false,
+	"period": "Daily",
+	"duration": "P1D",
+	"stepsTaken": 48,
+	"caloriesBurnedSummary": {
+		"period": "Daily",
+		"totalCalories": 1976
+	},
+	"heartRateSummary": {
+		"period": "Daily",
+		"averageHeartRate": 68,
+		"peakHeartRate": 85,
+		"lowestHeartRate": 52
+	},
+	"distanceSummary": {
+		"period": "Daily",
+		"totalDistance": 8639,
+		"totalDistanceOnFoot": 86390
+	}
+}, {
+	"userId": "50b65288-5946-4ea1-a1c1-3cc12338ef63",
+	"startTime": "2015-12-29T00:00:00.000+00:00",
+	"endTime": "2015-12-30T00:00:00.000+00:00",
+	"parentDay": "2015-12-29T00:00:00.000+00:00",
+	"isTransitDay": false,
+	"period": "Daily",
+	"duration": "P1D",
+	"stepsTaken": 958,
+	"caloriesBurnedSummary": {
+		"period": "Daily",
+		"totalCalories": 1975
+	},
+	"heartRateSummary": {
+		"period": "Daily",
+		"averageHeartRate": 69,
+		"peakHeartRate": 131,
+		"lowestHeartRate": 47
+	},
+	"distanceSummary": {
+		"period": "Daily",
+		"totalDistance": 81088,
+		"totalDistanceOnFoot": 81088
+	}
+}, {
+	"userId": "50b65288-5946-4ea1-a1c1-3cc12338ef63",
+	"startTime": "2015-12-28T00:00:00.000+00:00",
+	"endTime": "2015-12-29T00:00:00.000+00:00",
+	"parentDay": "2015-12-28T00:00:00.000+00:00",
+	"isTransitDay": false,
+	"period": "Daily",
+	"duration": "P1D",
+	"stepsTaken": 938,
+	"caloriesBurnedSummary": {
+		"period": "Daily",
+		"totalCalories": 1975
+	},
+	"heartRateSummary": {
+		"period": "Daily",
+		"averageHeartRate": 68,
+		"peakHeartRate": 124,
+		"lowestHeartRate": 43
+	},
+	"distanceSummary": {
+		"period": "Daily",
+		"totalDistance": 247013,
+		"totalDistanceOnFoot": 247013
+	}
+}, {
+	"userId": "50b65288-5946-4ea1-a1c1-3cc12338ef63",
+	"startTime": "2015-12-27T00:00:00.000+00:00",
+	"endTime": "2015-12-28T00:00:00.000+00:00",
+	"parentDay": "2015-12-27T00:00:00.000+00:00",
+	"isTransitDay": false,
+	"period": "Daily",
+	"duration": "P1D",
+	"stepsTaken": 264,
+	"caloriesBurnedSummary": {
+		"period": "Daily",
+		"totalCalories": 2004
+	},
+	"heartRateSummary": {
+		"period": "Daily",
+		"averageHeartRate": 74,
+		"peakHeartRate": 112,
+		"lowestHeartRate": 60
+	},
+	"distanceSummary": {
+		"period": "Daily",
+		"totalDistance": 20940,
+		"totalDistanceOnFoot": 20940
+	}
+},{
+	"userId": "50b65288-5946-4ea1-a1c1-3cc12338ef63",
+	"startTime": "2015-12-29T00:00:00.000+00:00",
+	"endTime": "2015-12-30T00:00:00.000+00:00",
+	"parentDay": "2015-12-29T00:00:00.000+00:00",
+	"isTransitDay": false,
+	"period": "Daily",
+	"duration": "P1D",
+	"stepsTaken": 958,
+	"caloriesBurnedSummary": {
+		"period": "Daily",
+		"totalCalories": 2000
+	},
+	"heartRateSummary": {
+		"period": "Daily",
+		"averageHeartRate": 69,
+		"peakHeartRate": 131,
+		"lowestHeartRate": 47
+	},
+	"distanceSummary": {
+		"period": "Daily",
+		"totalDistance": 81088,
+		"totalDistanceOnFoot": 81088
+	}
+}, {
+	"userId": "50b65288-5946-4ea1-a1c1-3cc12338ef63",
+	"startTime": "2015-12-28T00:00:00.000+00:00",
+	"endTime": "2015-12-29T00:00:00.000+00:00",
+	"parentDay": "2015-12-28T00:00:00.000+00:00",
+	"isTransitDay": false,
+	"period": "Daily",
+	"duration": "P1D",
+	"stepsTaken": 938,
+	"caloriesBurnedSummary": {
+		"period": "Daily",
+		"totalCalories": 2000
+	},
+	"heartRateSummary": {
+		"period": "Daily",
+		"averageHeartRate": 68,
+		"peakHeartRate": 124,
+		"lowestHeartRate": 43
+	},
+	"distanceSummary": {
+		"period": "Daily",
+		"totalDistance": 247013,
+		"totalDistanceOnFoot": 247013
+	}
+}]

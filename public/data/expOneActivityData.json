@@ -1,0 +1,563 @@
+[{
+	"activityType": "Run",
+	"activitySegments": [{
+		"segmentId": 635872011329065100,
+		"startTime": "2015-12-31T23:25:32.906+00:00",
+		"endTime": "2015-12-31T23:34:40.906+00:00",
+		"duration": "PT9M8S",
+		"heartRateSummary": {
+			"period": "Segment",
+			"averageHeartRate": 63,
+			"peakHeartRate": 99,
+			"lowestHeartRate": 53
+		},
+		"caloriesBurnedSummary": {
+			"period": "Segment",
+			"totalCalories": 12
+		},
+		"segmentType": "Run"
+	}],
+	"performanceSummary": {
+		"finishHeartRate": 80,
+		"heartRateZones": {
+			"underHealthyHeart": 10,
+			"underAerobic": 10
+		}
+	},
+	"distanceSummary": {
+		"period": "Activity",
+		"totalDistance": 4562,
+		"actualDistance": 4583,
+		"elevationGain": 0,
+		"elevationLoss": 0,
+		"maxElevation": 2500,
+		"minElevation": 2500,
+		"waypointDistance": 2500,
+		"pace": 12024484
+	},
+	"splitDistance": 160934,
+	"mapPoints": [{
+		"mapPointType": "Start",
+		"ordinal": 0,
+		"heartRate": 64,
+		"scaledPace": 50,
+		"isPaused": false,
+		"isResume": false
+	}, {
+		"secondsSinceStart": 346,
+		"mapPointType": "Waypoint",
+		"ordinal": 1,
+		"actualDistance": 2520,
+		"totalDistance": 2520,
+		"heartRate": 72,
+		"scaledPace": 50,
+		"speed": 27,
+		"location": {
+			"speedOverGround": 33,
+			"latitude": 752219694,
+			"longitude": -828073929,
+			"elevationFromMeanSeaLevel": 2500,
+			"estimatedHorizontalError": 1616,
+			"estimatedVerticalError": 1000
+		},
+		"isPaused": false,
+		"isResume": false
+	}, {
+		"secondsSinceStart": 549,
+		"mapPointType": "End",
+		"ordinal": 2,
+		"actualDistance": 4583,
+		"totalDistance": 4583,
+		"heartRate": 80,
+		"scaledPace": 100,
+		"speed": 24,
+		"isPaused": true,
+		"isResume": false
+	}],
+	"id": "2519506964670934964",
+	"startTime": "2015-12-31T23:25:32.906+00:00",
+	"endTime": "2015-12-31T23:34:40.906+00:00",
+	"dayId": "2015-12-31T00:00:00.000+00:00",
+	"duration": "PT9M8S",
+	"caloriesBurnedSummary": {
+		"period": "Activity",
+		"totalCalories": 12
+	},
+	"heartRateSummary": {
+		"period": "Activity",
+		"averageHeartRate": 65,
+		"peakHeartRate": 80,
+		"lowestHeartRate": 53
+	}
+}, {
+	"activityType": "Run",
+	"activitySegments": [{
+		"segmentId": 635871787295587500,
+		"startTime": "2015-12-31T17:12:09.558+00:00",
+		"endTime": "2015-12-31T19:43:11.558+00:00",
+		"duration": "PT2H31M2S",
+		"heartRateSummary": {
+			"period": "Segment",
+			"averageHeartRate": 72,
+			"peakHeartRate": 106,
+			"lowestHeartRate": 58
+		},
+		"caloriesBurnedSummary": {
+			"period": "Segment",
+			"totalCalories": 213
+		},
+		"segmentType": "Run"
+	}],
+	"performanceSummary": {
+		"finishHeartRate": 67,
+		"heartRateZones": {
+			"underHealthyHeart": 152,
+			"underAerobic": 152
+		}
+	},
+	"distanceSummary": {
+		"period": "Activity",
+		"totalDistance": 6010,
+		"actualDistance": 6010,
+		"waypointDistance": 2500,
+		"pace": 150792113
+	},
+	"splitDistance": 160934,
+	"mapPoints": [{
+		"mapPointType": "Start",
+		"ordinal": 0,
+		"heartRate": 78,
+		"scaledPace": 100,
+		"isPaused": false,
+		"isResume": false
+	}, {
+		"secondsSinceStart": 3170,
+		"mapPointType": "Waypoint",
+		"ordinal": 1,
+		"actualDistance": 2552,
+		"totalDistance": 2552,
+		"heartRate": 73,
+		"pace": 769000,
+		"scaledPace": 67,
+		"speed": 130,
+		"isPaused": false,
+		"isResume": false
+	}, {
+		"secondsSinceStart": 3363,
+		"mapPointType": "Waypoint",
+		"ordinal": 2,
+		"actualDistance": 4954,
+		"totalDistance": 4954,
+		"heartRate": 97,
+		"pace": 1149000,
+		"scaledPace": 33,
+		"speed": 87,
+		"isPaused": false,
+		"isResume": false
+	}, {
+		"secondsSinceStart": 9062,
+		"mapPointType": "End",
+		"ordinal": 3,
+		"actualDistance": 6010,
+		"totalDistance": 6010,
+		"heartRate": 70,
+		"scaledPace": 100,
+		"isPaused": true,
+		"isResume": false
+	}],
+	"id": "2519507188704412579",
+	"startTime": "2015-12-31T17:12:09.558+00:00",
+	"endTime": "2015-12-31T19:43:11.558+00:00",
+	"dayId": "2015-12-31T00:00:00.000+00:00",
+	"duration": "PT2H31M2S",
+	"caloriesBurnedSummary": {
+		"period": "Activity",
+		"totalCalories": 213
+	},
+	"heartRateSummary": {
+		"period": "Activity",
+		"averageHeartRate": 73,
+		"peakHeartRate": 97,
+		"lowestHeartRate": 58
+	}
+}, {
+	"activityType": "Run",
+	"activitySegments": [{
+		"segmentId": 635871612413639700,
+		"startTime": "2015-12-31T12:20:41.363+00:00",
+		"endTime": "2015-12-31T13:00:53.363+00:00",
+		"duration": "PT40M12S",
+		"heartRateSummary": {
+			"period": "Segment",
+			"averageHeartRate": 68,
+			"peakHeartRate": 121,
+			"lowestHeartRate": 56
+		},
+		"caloriesBurnedSummary": {
+			"period": "Segment",
+			"totalCalories": 57
+		},
+		"segmentType": "Run"
+	}],
+	"performanceSummary": {
+		"finishHeartRate": 91,
+		"heartRateZones": {
+			"underHealthyHeart": 40,
+			"underAerobic": 40,
+			"healthyHeart": 1
+		}
+	},
+	"distanceSummary": {
+		"period": "Activity",
+		"waypointDistance": 2500
+	},
+	"splitDistance": 160934,
+	"mapPoints": [{
+		"mapPointType": "Start",
+		"ordinal": 0,
+		"heartRate": 77,
+		"scaledPace": 100,
+		"isPaused": false,
+		"isResume": false
+	}, {
+		"secondsSinceStart": 2412,
+		"mapPointType": "End",
+		"ordinal": 1,
+		"heartRate": 94,
+		"scaledPace": 100,
+		"isPaused": true,
+		"isResume": false
+	}],
+	"id": "2519507363586360318",
+	"startTime": "2015-12-31T12:20:41.363+00:00",
+	"endTime": "2015-12-31T13:00:53.363+00:00",
+	"dayId": "2015-12-31T00:00:00.000+00:00",
+	"duration": "PT40M12S",
+	"caloriesBurnedSummary": {
+		"period": "Activity",
+		"totalCalories": 57
+	},
+	"heartRateSummary": {
+		"period": "Activity",
+		"averageHeartRate": 70,
+		"peakHeartRate": 111,
+		"lowestHeartRate": 56
+	}
+}, {
+	"activityType": "Run",
+	"activitySegments": [{
+		"segmentId": 635871540389604400,
+		"startTime": "2015-12-31T10:20:38.960+00:00",
+		"endTime": "2015-12-31T10:43:05.960+00:00",
+		"duration": "PT22M27S",
+		"heartRateSummary": {
+			"period": "Segment",
+			"averageHeartRate": 93,
+			"peakHeartRate": 137,
+			"lowestHeartRate": 55
+		},
+		"caloriesBurnedSummary": {
+			"period": "Segment",
+			"totalCalories": 78
+		},
+		"segmentType": "Run"
+	}],
+	"performanceSummary": {
+		"finishHeartRate": 58,
+		"heartRateZones": {
+			"underHealthyHeart": 11,
+			"underAerobic": 11,
+			"fitnessZone": 4,
+			"healthyHeart": 9
+		}
+	},
+	"distanceSummary": {
+		"period": "Activity",
+		"waypointDistance": 2500
+	},
+	"splitDistance": 160934,
+	"mapPoints": [{
+		"mapPointType": "Start",
+		"ordinal": 0,
+		"heartRate": 77,
+		"scaledPace": 100,
+		"isPaused": false,
+		"isResume": false
+	}, {
+		"secondsSinceStart": 1348,
+		"mapPointType": "End",
+		"ordinal": 1,
+		"heartRate": 58,
+		"scaledPace": 100,
+		"isPaused": true,
+		"isResume": false
+	}],
+	"id": "2519507435610395626",
+	"startTime": "2015-12-31T10:20:38.960+00:00",
+	"endTime": "2015-12-31T10:43:05.960+00:00",
+	"dayId": "2015-12-31T00:00:00.000+00:00",
+	"duration": "PT22M27S",
+	"caloriesBurnedSummary": {
+		"period": "Activity",
+		"totalCalories": 78
+	},
+	"heartRateSummary": {
+		"period": "Activity",
+		"averageHeartRate": 95,
+		"peakHeartRate": 127,
+		"lowestHeartRate": 55
+	}
+}, {
+	"activityType": "Run",
+	"activitySegments": [{
+		"segmentId": 635870859791089000,
+		"startTime": "2015-12-30T15:26:19.108+00:00",
+		"endTime": "2015-12-30T15:27:05.108+00:00",
+		"duration": "PT46S",
+		"heartRateSummary": {
+			"period": "Segment"
+		},
+		"caloriesBurnedSummary": {
+			"period": "Segment",
+			"totalCalories": 1
+		},
+		"segmentType": "Run"
+	}],
+	"performanceSummary": {
+		"heartRateZones": {
+			"underHealthyHeart": 2,
+			"underAerobic": 2
+		}
+	},
+	"distanceSummary": {
+		"period": "Activity",
+		"totalDistance": 460,
+		"actualDistance": 529,
+		"elevationGain": 0,
+		"elevationLoss": 0,
+		"maxElevation": 2500,
+		"minElevation": 2500,
+		"waypointDistance": 2500,
+		"pace": 10081521
+	},
+	"splitDistance": 160934,
+	"mapPoints": [{
+		"mapPointType": "Start",
+		"ordinal": 0,
+		"scaledPace": 100,
+		"location": {
+			"speedOverGround": 52,
+			"latitude": 753780883,
+			"longitude": -875974321,
+			"elevationFromMeanSeaLevel": 2500,
+			"estimatedHorizontalError": 2793,
+			"estimatedVerticalError": 1000
+		},
+		"isPaused": false,
+		"isResume": false
+	}, {
+		"secondsSinceStart": 49,
+		"mapPointType": "End",
+		"ordinal": 1,
+		"actualDistance": 529,
+		"totalDistance": 460,
+		"scaledPace": 100,
+		"speed": 3,
+		"isPaused": true,
+		"isResume": false
+	}],
+	"id": "2519508116208910922",
+	"startTime": "2015-12-30T15:26:19.108+00:00",
+	"endTime": "2015-12-30T15:27:05.108+00:00",
+	"dayId": "2015-12-30T00:00:00.000+00:00",
+	"duration": "PT46S",
+	"caloriesBurnedSummary": {
+		"period": "Activity",
+		"totalCalories": 1
+	},
+	"heartRateSummary": {
+		"period": "Activity"
+	}
+},{
+	"activityType": "Run",
+	"activitySegments": [{
+		"segmentId": 635872011329065100,
+		"startTime": "2015-12-31T23:25:32.906+00:00",
+		"endTime": "2015-12-31T23:34:40.906+00:00",
+		"duration": "PT9M8S",
+		"heartRateSummary": {
+			"period": "Segment",
+			"averageHeartRate": 63,
+			"peakHeartRate": 99,
+			"lowestHeartRate": 53
+		},
+		"caloriesBurnedSummary": {
+			"period": "Segment",
+			"totalCalories": 12
+		},
+		"segmentType": "Run"
+	}],
+	"performanceSummary": {
+		"finishHeartRate": 80,
+		"heartRateZones": {
+			"underHealthyHeart": 10,
+			"underAerobic": 10
+		}
+	},
+	"distanceSummary": {
+		"period": "Activity",
+		"totalDistance": 4562,
+		"actualDistance": 4583,
+		"elevationGain": 0,
+		"elevationLoss": 0,
+		"maxElevation": 2500,
+		"minElevation": 2500,
+		"waypointDistance": 2500,
+		"pace": 12024484
+	},
+	"splitDistance": 160934,
+	"mapPoints": [{
+		"mapPointType": "Start",
+		"ordinal": 0,
+		"heartRate": 64,
+		"scaledPace": 50,
+		"isPaused": false,
+		"isResume": false
+	}, {
+		"secondsSinceStart": 346,
+		"mapPointType": "Waypoint",
+		"ordinal": 1,
+		"actualDistance": 2520,
+		"totalDistance": 2520,
+		"heartRate": 72,
+		"scaledPace": 50,
+		"speed": 27,
+		"location": {
+			"speedOverGround": 33,
+			"latitude": 766033702,
+			"longitude": -936893512,
+			"elevationFromMeanSeaLevel": 2500,
+			"estimatedHorizontalError": 1616,
+			"estimatedVerticalError": 1000
+		},
+		"isPaused": false,
+		"isResume": false
+	}, {
+		"secondsSinceStart": 549,
+		"mapPointType": "End",
+		"ordinal": 2,
+		"actualDistance": 4583,
+		"totalDistance": 4583,
+		"heartRate": 80,
+		"scaledPace": 100,
+		"speed": 24,
+		"isPaused": true,
+		"isResume": false
+	}],
+	"id": "2519506964670934964",
+	"startTime": "2015-12-31T23:25:32.906+00:00",
+	"endTime": "2015-12-31T23:34:40.906+00:00",
+	"dayId": "2015-12-31T00:00:00.000+00:00",
+	"duration": "PT9M8S",
+	"caloriesBurnedSummary": {
+		"period": "Activity",
+		"totalCalories": 12
+	},
+	"heartRateSummary": {
+		"period": "Activity",
+		"averageHeartRate": 65,
+		"peakHeartRate": 80,
+		"lowestHeartRate": 53
+	}
+},{
+	"activityType": "Run",
+	"activitySegments": [{
+		"segmentId": 635872011329065100,
+		"startTime": "2015-12-31T23:25:32.906+00:00",
+		"endTime": "2015-12-31T23:34:40.906+00:00",
+		"duration": "PT9M8S",
+		"heartRateSummary": {
+			"period": "Segment",
+			"averageHeartRate": 63,
+			"peakHeartRate": 99,
+			"lowestHeartRate": 53
+		},
+		"caloriesBurnedSummary": {
+			"period": "Segment",
+			"totalCalories": 12
+		},
+		"segmentType": "Run"
+	}],
+	"performanceSummary": {
+		"finishHeartRate": 80,
+		"heartRateZones": {
+			"underHealthyHeart": 10,
+			"underAerobic": 10
+		}
+	},
+	"distanceSummary": {
+		"period": "Activity",
+		"totalDistance": 4562,
+		"actualDistance": 4583,
+		"elevationGain": 0,
+		"elevationLoss": 0,
+		"maxElevation": 2500,
+		"minElevation": 2500,
+		"waypointDistance": 2500,
+		"pace": 12024484
+	},
+	"splitDistance": 160934,
+	"mapPoints": [{
+		"mapPointType": "Start",
+		"ordinal": 0,
+		"heartRate": 64,
+		"scaledPace": 50,
+		"isPaused": false,
+		"isResume": false
+	}, {
+		"secondsSinceStart": 346,
+		"mapPointType": "Waypoint",
+		"ordinal": 1,
+		"actualDistance": 2520,
+		"totalDistance": 2520,
+		"heartRate": 72,
+		"scaledPace": 50,
+		"speed": 27,
+		"location": {
+			"speedOverGround": 33,
+			"latitude": 771715510,
+			"longitude": -854056600,
+			"elevationFromMeanSeaLevel": 2500,
+			"estimatedHorizontalError": 1616,
+			"estimatedVerticalError": 1000
+		},
+		"isPaused": false,
+		"isResume": false
+	}, {
+		"secondsSinceStart": 549,
+		"mapPointType": "End",
+		"ordinal": 2,
+		"actualDistance": 4583,
+		"totalDistance": 4583,
+		"heartRate": 80,
+		"scaledPace": 100,
+		"speed": 24,
+		"isPaused": true,
+		"isResume": false
+	}],
+	"id": "2519506964670934964",
+	"startTime": "2015-12-31T23:25:32.906+00:00",
+	"endTime": "2015-12-31T23:34:40.906+00:00",
+	"dayId": "2015-12-31T00:00:00.000+00:00",
+	"duration": "PT9M8S",
+	"caloriesBurnedSummary": {
+		"period": "Activity",
+		"totalCalories": 12
+	},
+	"heartRateSummary": {
+		"period": "Activity",
+		"averageHeartRate": 65,
+		"peakHeartRate": 80,
+		"lowestHeartRate": 53
+	}
+}]
